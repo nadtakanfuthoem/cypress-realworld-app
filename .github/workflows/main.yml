@@ -18,7 +18,7 @@ jobs:
       - name: Cypress install
         uses: cypress-io/github-action@v5
         with:
-          runTests: false #disabled run tests
+          runTests: false
       # report machine parameters
       - run: yarn cypress info
       - run: node --version
